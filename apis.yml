@@ -1,7 +1,28 @@
 aid: fertifa
 name: Fertifa
-description: Fertifa is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fertifa is Europe's reproductive healthcare benefits provider for employers,
+  giving companies a way to offer fertility, family-forming, women's health,
+  maternity, menopause, men's reproductive health, and neurodiversity support to
+  their employees. The platform pairs an in-house clinical team with education
+  and training, diagnostics and testing, prescriptions and medication delivery,
+  and financing/reimbursement, delivered to staff through a mobile app and to HR
+  teams through enterprise and SME plans. Fertifa is London-based, backed by
+  Speedinvest, and works with employers including Lululemon, Meta, Bain Capital,
+  and Virgin. No public developer API or OpenAPI surface is currently published;
+  this profile captures the company's public web, legal, and support properties.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64fece60033643f046fc512e/67a22166fac526b51ec03852_OG%20-%20Home.png
 url: https://raw.githubusercontent.com/api-evangelist/fertifa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fertility
+- Reproductive Health
+- Employee Benefits
+- Healthcare
+- Femtech
+- HR Tech
+- Menopause
+- Family Forming
+- Digital Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fertifa-domain-security.yml
+- type: Website
+  url: https://www.fertifa.com
+- type: Blog
+  url: https://www.fertifa.com/resources/blog
+- type: Pricing
+  url: https://www.fertifa.com/payment-plan
+- type: Support
+  url: https://www.fertifa.com/get-in-touch
+- type: TermsOfService
+  url: https://www.fertifa.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.fertifa.com/cookie-and-privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/fertifa
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
