@@ -11,6 +11,17 @@ description: >-
   Speedinvest, and works with employers including Lululemon, Meta, Bain Capital,
   and Virgin. No public developer API or OpenAPI surface is currently published;
   this profile captures the company's public web, legal, and support properties.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
